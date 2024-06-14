@@ -73,11 +73,13 @@ services:
 ```
 docker compose up
 ```
-```
+
 `http://localhost:9090/`
+
 `http://localhost:9090/targets`
+
 `http://localhost:9090/graph` process_cpu_seconds_total
-```
+
 ## Setup Grafana
 
 ```
