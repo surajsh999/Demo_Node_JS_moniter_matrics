@@ -86,13 +86,13 @@ docker compose up
 docker run -d -p 3000:3000 --name=grafana grafana/grafana-oss
 ```
 
-`http://localhost:3000/`
+`http://192.168.0.6:3000/`
 
 username = admin
 Password = admin
 
 click on Home ==> Connections ==> Data sources 
-select ==> prometheus ==> Connection ==> http://192.168.0.6:9090
+select ==> prometheus ==> Connection ==> 'http://192.168.0.6:9090'
 ==> Save & test
 
 Then Go back and click on DASHBOARDS
